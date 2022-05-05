@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer app {
+   @font-face {
+      font-family: 'Sifonn';
+      font-style: normal;
+      font-weight: normal;
+      src: local("..src/fonts/"), format('woff2');
+      }
+ }
+
