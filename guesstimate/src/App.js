@@ -8,12 +8,12 @@ const App = () => {
         <div className="columns-2 fixed inset-x-0 bottom-0 align-bottom h-1/3 w-screen grid-flex grid-cols">
           <div className="absolute bottom-10 left-0 grid-flex grid-cols">
             <img
-              className="cursor-pointer ml-8 mb-4 h-8"
+              className="cursor-pointer ml-8 mb-4 h-8 xs:ml-8"
               alt="cartoon network"
               src="image-4@2x.png"
             />
             <img
-              className="cursor-pointer relative ml-24 -mt-12 h-8"
+              className="xs:ml-20 cursor-pointer -mt-12 h-8"
               alt="tiktok"
               src="image-5@2x.png"
             />
@@ -56,7 +56,7 @@ const App = () => {
           </p>
         </div>
         <div className="bg-[#f0f0f0]">
-          <div className="divBoxMulher object-position:right // xss :w-4 // sm:w-48 sm:mt-36 // md:w-48 md:mt-40 // lg:w-56 lg:mt-auto lg:ml-48 / xl:w-72 xl:mt-48 xl:ml-0 // 2xl:w-96 2xl:mt-auto 2xl:ml-auto">
+          <div className="divBoxMulher object-position:right // xs:w-42 xs:mt-28 // sm:w-48 sm:mt-36 // md:w-48 md:mt-40 // lg:w-56 lg:mt-auto lg:ml-48 / xl:w-72 xl:mt-48 xl:ml-0 // 2xl:w-96 2xl:mt-auto 2xl:ml-auto // ipad:w-80 ipad:mt-72 // fold:mt-36 ">
             <img className="influencer" alt="influencer" src="image-3@2x.png" />
           </div>
         </div>
