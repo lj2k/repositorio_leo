@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./index.css";
-import Booking from "./components/booking.js";
-import { BrowserRouter as Switch, HashRouter, Route } from "react-router-dom";
+import Booking from "./components/booking";
 
 const App = () => {
   return (
@@ -58,7 +57,10 @@ const App = () => {
           </p>
         </div>
         <div className="bg-[#f0f0f0]">
-          <div className="divBoxMulher object-position:right // xs:w-42 xs:mt-28 // sm:w-48 sm:mt-36 // md:w-48 md:mt-40 // lg:w-56 lg:mt-auto lg:ml-48 / xl:w-72 xl:mt-48 xl:ml-0 // 2xl:w-96 2xl:mt-auto 2xl:ml-auto // ipad:w-80 ipad:mt-72 // fold:mt-36 ">
+          <div
+            className="divBoxMulher object-position:right // xs:w-42 xs:mt-28 // sm:w-48 sm:mt-36 // md:w-48 md:mt-40 // lg:w-56 lg:mt-auto lg:ml-48 / xl:w-72 xl:mt-48 xl:ml-0 // 2xl:w-96 2xl:mt-auto 2xl:ml-auto // ipad:w-40 ipad:mt-40 // fold:mt-36 // mid:w-48 mt-24 // 
+           "
+          >
             <img className="influencer" alt="influencer" src="image-3@2x.png" />
           </div>
         </div>

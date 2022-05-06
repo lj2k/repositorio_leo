@@ -4,6 +4,7 @@ module.exports = {
     screens: {
       fold: "280px",
       xs: "350px",
+      mid: "600px",
       sm: "640px",
       md: "768px",
       ipad: "820px",

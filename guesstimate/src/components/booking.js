@@ -1,11 +1,14 @@
 import React, { Component } from "react";
+import "../index.css";
 
-const Booking = () => {
-  return (
-    <div className="h-64 w-64 bg-black">
-      <h2>Booking </h2>;
-    </div>
-  );
-};
+class Booking extends Component {
+  render() {
+    return (
+      <div>
+        <h2>Booking</h2>
+      </div>
+    );
+  }
+}
 
 export default Booking;
