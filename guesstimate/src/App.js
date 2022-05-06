@@ -1,5 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import "./index.css";
+import Booking from "./components/booking.js";
+import { BrowserRouter as Switch, HashRouter, Route } from "react-router-dom";
 
 const App = () => {
   return (
